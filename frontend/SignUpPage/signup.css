@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Patua One', cursive;
+	background: linear-gradient(to bottom, #1b68c0, #288db4, #276488);
+}
+
+.main-container{
+    width: 400px;
+    height: 550px;
+    overflow: hidden;
+	background-color: rgb(39, 131, 216);
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input{
+	width: 70%;
+	height: 20px;
+	background: white;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #34c488;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 40px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+button:hover{
+    background-color: #df6868;
+}
+
+a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: rgb(13, 13, 14);
+}
+
+a:hover{
+    color: #fff;
+}
+
+p{
+    justify-content: center;
+    display: flex;
+    margin: 10px auto;
+    color: white;
+    
+}
+
+.empty::-webkit-input-placeholder {
+    color: red;
+	font-family: 'Patua One', cursive;
+ }
+
+ .popup-container{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	display: none;
+	align-items: center;
+	justify-content: center;
+	
+ }
+
+ .popup-container.active{
+	display: block;
+	
+ }
+
+ .popup-message{
+	background-color:white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+	padding: 1rem;
+	margin: 1px auto;
+    width: 300px;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.popup-message p{
+	color: #24243e;
+	font-family:'Patua One', cursive; ;
+	text-align: center;
+}

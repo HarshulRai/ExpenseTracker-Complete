@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="./forgotpass.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup-message">
+            <!-- <p>Signup Successful</p>
+            <p>Please go to Login Page to login to your account.</p> -->
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="form-container">
+            <form action="">
+                <label for="chk" aria-hidden="true">Reset Password</label>
+                
+                <input type="email" name="email" id="email" placeholder="Email">
+                
+                <button type="submit" id="resetBtn">Reset Password</button>
+            </form>
+            <p>Back to <a href="../LoginPage/login.html">Login Page</a></p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="./forgotpass.js"></script>
+</body>
+</html>

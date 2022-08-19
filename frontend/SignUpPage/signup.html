@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="popup-container">
+        <div class="popup-message">
+            <!-- <p>Signup Successful</p>
+            <p>Please go to Login Page to login to your account.</p> -->
+        </div>
+    </div>
+
+
+    <div class="main-container">
+
+        <div class="form-container">
+            <form>
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="name" id="name" placeholder="User name">
+                
+                <input type="email" name="email" id="email" placeholder="Email">
+                
+                <input type="number" name="phone" id="phone" placeholder="Phone">
+                
+                <input type="password" name="password" id="password" placeholder="Password">
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Alreay have a account? <a href="../LoginPage/login.html">Login</a></p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="./signup.js"></script>
+</body>
+</html>
